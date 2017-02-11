@@ -1,0 +1,34 @@
+{
+  "name": "skate_or_die",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --config ./webpack.config.js --colors --progress --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel": "6.5.2",
+    "babel-core": "6.22.1",
+    "babel-loader": "6.2.10",
+    "babel-plugin-transform-class-properties": "6.22.0",
+    "babel-plugin-transform-decorators-legacy": "1.3.4",
+    "babel-plugin-transform-es2015-destructuring": "6.22.0",
+    "babel-plugin-transform-flow-strip-types": "6.22.0",
+    "babel-preset-es2015": "6.22.0",
+    "babel-preset-react": "6.22.0",
+    "babel-preset-stage-1": "6.22.0",
+    "file-loader": "0.10.0",
+    "skatejs-react-integration": "2.0.6",
+    "webpack": "2.2.1"
+  },
+  "dependencies": {
+    "react": "15.4.2",
+    "react-dom": "15.4.2",
+    "skatejs": "4.6.6",
+    "skatejs-web-components": "5.1.0",
+    "webpack-dev-server": "2.3.0"
+  }
+}
